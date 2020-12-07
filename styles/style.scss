@@ -1,0 +1,31 @@
+$darkestBGColor: #0f2027;
+$midBGColor: #203a43;
+$lightestBGColor: #2c5364;
+$background: linear-gradient($darkestBGColor, $midBGColor, $lightestBGColor);
+
+$font: "Baloo Tamma 2", sans-serif;
+$primaryTextColor: #f3fbff;
+$secondaryTextColor: #c5e6f6;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $background;
+  height: 100vh;
+  font-family: $font;
+  color: $primaryTextColor;
+}
+
+#container {
+  max-width: 302px;
+  margin: 0 auto;
+}
+
+#content {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}

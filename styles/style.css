@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0f2027), color-stop(#203a43), to(#2c5364));
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+  height: 100vh;
+  font-family: "Baloo Tamma 2", sans-serif;
+  color: #f3fbff;
+}
+
+#container {
+  max-width: 302px;
+  margin: 0 auto;
+}
+
+#content {
+  margin-top: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */
