@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#0f2027), color-stop(#203a43), to(#2c5364));
   background: linear-gradient(#0f2027, #203a43, #2c5364);
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Baloo Tamma 2", sans-serif;
   color: #f3fbff;
 }
@@ -25,5 +27,95 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2.7rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 span {
+  font-size: 3.6rem;
+}
+
+#identicon-input {
+  line-height: 1;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+#identicon-input:focus {
+  outline: 2px solid #c5e6f6;
+  outline-offset: 6px;
+}
+
+#identicon-input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#identicon-input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+#identicon-input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+#identicon-input:focus::placeholder {
+  color: transparent;
+}
+
+#identicon-input::-webkit-input-placeholder {
+  color: #b8ceda;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+#identicon-input:-ms-input-placeholder {
+  color: #b8ceda;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+#identicon-input::-ms-input-placeholder {
+  color: #b8ceda;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+#identicon-input::placeholder {
+  color: #b8ceda;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+hr {
+  width: 65%;
+  height: 0.01rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 0 auto;
+  background: #c5e6f6;
+  opacity: 0.55;
+}
+
+p {
+  color: #c5e6f6;
+  font-size: 1.22rem;
+  line-height: 1.3;
+  position: absolute;
+  bottom: 10%;
+  max-width: 85%;
 }
 /*# sourceMappingURL=style.css.map */
