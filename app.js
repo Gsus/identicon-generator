@@ -11,7 +11,6 @@ new Vue({
   methods: {
     onInput(event) {
       this.identiconText = event.target.value;
-      console.log("running");
     },
   },
 });

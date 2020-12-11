@@ -23,8 +23,18 @@
           <h1><span>Identicon</span> Generator</h1>
 
           <!-- Generated Identicon goes here -->
-          <div v-html="identicon"></div>
+          <div id="output">
+            <div v-html="identicon"></div>
+          </div>
           <!--  -->
+
+          <!-- <select name="identicon-options" id="identicon-options">
+            <option value="classic" selected>Classic</option>
+            <option value="robot">Robot</option>
+            <option value="robot head">Robot head</option>
+            <option value="monster">Monster</option>
+            <option value="Cats">Cat</option>
+          </select> -->
 
           <input
             @input="onInput"
